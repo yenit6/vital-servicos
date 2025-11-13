@@ -1,0 +1,589 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="image/logo-vital.png">
+    <title>Vital Serviços</title>
+</head>
+
+<body>
+
+    <!-- ========================================================= -->
+    <!-- ====================== CABEÇALHO ========================= -->
+    <!-- ========================================================= -->
+    <header class="site-header">
+
+        <div class="container header-inner">
+
+            <!-- ====== LOGO E IDENTIDADE ====== -->
+            <div class="brand">
+                <h1>
+                    <a href="#">
+                        <img src="image/logo-vital.png" alt="Logo Vital Serviços" class="logo">
+                        Vital Serviços
+                    </a>
+                </h1>
+                <p class="tag">Segurança do trabalho</p>
+            </div>
+
+            <!-- ====== MENU PRINCIPAL (DESKTOP) ====== -->
+            <nav class="main-nav" aria-label="Menu principal">
+                <a href="#treinamentos">Treinamentos</a>
+                <a href="#servicos">Serviços</a>
+                <a href="#sobre">Sobre</a>
+                <a href="#contato">Contato</a>
+                <button id="open-modal" class="login-btn">Login</button>
+            </nav>
+
+            <!-- ====== BOTÃO DE MENU (MOBILE) ====== -->
+            <button id="menu-toggle" class="menu-toggle" aria-expanded="false" aria-controls="mobile-menu">☰</button>
+        </div>
+
+        <!-- ====== MENU MOBILE (ABRE PELO BOTÃO ☰) ====== -->
+        <div id="mobile-menu" class="mobile-menu" hidden>
+            <a href="#treinamentos">Treinamentos</a>
+            <a href="#servicos">Serviços</a>
+            <a href="#sobre">Sobre</a>
+            <a href="#contato">Contato</a>
+            <button id="open-modal" class="login-btn">Login</button>
+        </div>
+
+    </header>
+
+    <!-- ========================================================= -->
+    <!-- ===================== CONTEÚDO PRINCIPAL ================= -->
+    <!-- ========================================================= -->
+    <main>
+
+        <!-- ====== SEÇÃO HERO (CAPA DO SITE) ====== -->
+        <section id="hero" class="hero">
+            <div class="container">
+                <h2>Consultoria em Segurança do Trabalho</h2>
+                <p>Protegemos sua equipe com conformidade legal e medidas práticas de prevenção e riscos</p>
+            </div>
+        </section>
+
+        <!-- ========================================================= -->
+        <!-- ============ SEÇÃO DE TREINAMENTOS OFERTADOS ============ -->
+        <!-- ========================================================= -->
+        <section id="treinamentos" class="section">
+            <div class="container">
+                <h2>Treinamentos Ofertados</h2>
+                <p class="lead">Capacitações e cursos oferecidos pela Vital Serviços.</p>
+
+                <div class="cards">
+
+                    <!-- ===== TREINAMENTO 1 ===== -->
+                    <div class="card">
+                        <img src="image/download (6).gif" alt="Treinamento NR-5" class="card-img">
+                        <h3>CIPA (NR 5)</h3>
+                        <p>Capacitação de comiçoes internas de prevenção de acidentes.</p>
+                        <button class="btn primary" data-modal="nr5">Ver mais</button>
+                    </div>
+
+                    <!-- ===== TREINAMENTO 2 ===== -->
+                    <div class="card">
+                        <img src="image/download (6).gif" alt="Treinamento NR-6" class="card-img">
+                        <h3>Uso correto de EPI's</h3>
+                        <p>Proteção e prevenção no dia a dia.</p>
+                        <button class="btn primary" data-modal="nr6">Ver mais</button>
+                    </div>
+
+                    <!-- ===== TREINAMENTO 3 ===== -->
+                    <div class="card">
+                        <img src="image/download (6).gif" alt="Treinamento NR-10" class="card-img">
+                        <h3>Segurança em instalações elétricas (NR 10)</h3>
+                        <p></p>
+                        <button class="btn primary" data-modal="nr10">Ver mais</button>
+                    </div>
+
+                    <!-- ===== TREINAMENTO 4 ===== -->
+                    <div class="card">
+                        <img src="image/download (6).gif" alt="Treinamento NR-10" class="card-img">
+                        <h3> Segurança em máquinas e equipamentos (NR 12)</h3>
+                        <p></p>
+                        <button class="btn primary" data-modal="nr12">Ver mais</button>
+                    </div>
+
+                    <!-- ===== TREINAMENTO 5 ===== -->
+                    <div class="card">
+                        <img src="image/download (6).gif" alt="Treinamento NR-10" class="card-img">
+                        <h3>Trabalho em altura (NR 35)</h3>
+                        <p></p>
+                        <button class="btn primary" data-modal="nr35">Ver mais</button>
+                    </div>
+
+                    <!-- ===== TREINAMENTO 6 ===== -->
+                    <div class="card">
+                        <img src="image/download (6).gif" alt="Treinamento NR-10" class="card-img">
+                        <h3> Proteção contra incêndios e emergências (NR 23)</h3>
+                        <p></p>
+                        <button class="btn primary" data-modal="nr23">Ver mais</button>
+                    </div>
+
+                    <!-- ===== TREINAMENTO 7 ===== -->
+                    <div class="card">
+                        <img src="image/download (6).gif" alt="Treinamento NR-10" class="card-img">
+                        <h3>Condições e meio ambiente na construção civil (NR 18)</h3>
+                        <p></p>
+                        <button class="btn primary" data-modal="nr18">Ver mais</button>
+                    </div>
+
+                    <!-- ===== TREINAMENTO 8 ===== -->
+                    <div class="card">
+                        <img src="image/download (6).gif" alt="Treinamento NR-10" class="card-img">
+                        <h3>ErgoPrev (NR17)</h3>
+                        <p></p>
+                        <button class="btn primary" data-modal="nr17">Ver mais</button>
+                    </div>
+
+                    <!-- ===== TREINAMENTO 9 ===== -->
+                    <div class="card">
+                        <img src="image/download (6).gif" alt="Treinamento NR-10" class="card-img">
+                        <h3>Treinamento de espaço confinado (NR 33)</h3>
+                        <p></p>
+                        <button class="btn primary" data-modal="nr33">Ver mais</button>
+                    </div>
+
+                    <!-- ===== TREINAMENTO 10 ===== -->
+                    <div class="card">
+                        <img src="image/download (6).gif" alt="Treinamento NR-10" class="card-img">
+                        <h3>Primeiros socorros</h3>
+                        <p></p>
+                        <button class="btn primary" data-modal="socorros">Ver mais</button>
+                    </div>
+
+                    <!-- ===== TREINAMENTO 11 ===== -->
+                    <div class="card">
+                        <img src="image/download (6).gif" alt="Treinamento NR-10" class="card-img">
+                        <h3>Armazenar, transportar e manusear líquidos inflamáveis (NR 20)</h3>
+                        <p></p>
+                        <button class="btn primary" data-modal="nr20">Ver mais</button>
+                    </div>
+
+                    <!-- ===== TREINAMENTO 12 ===== -->
+                    <div class="card">
+                        <img src="image/download (6).gif" alt="Treinamento NR-10" class="card-img">
+                        <h3>Treinamento operador de caldeira (NR 13)</h3>
+                        <p></p>
+                        <button class="btn primary" data-modal="nr13">Ver mais</button>
+                    </div>
+
+
+                </div>
+            </div>
+        </section>
+
+        <!-- ========================================================= -->
+        <!-- ================== MODAIS DOS TREINAMENTOS ============== -->
+        <!-- ========================================================= -->
+
+        <!-- ===== MODAL NR-5 ===== -->
+        <div id="modal-nr5" class="modal" hidden>
+            <div class="modal-content">
+                <button class="close-btn">&times;</button>
+                <h2>CIPA (NR 5)</h2>
+                <img src="image/download (6).gif" alt="Treinamento NR-5" class="modal-media">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Treinamento voltado à capacitação das
+                    comissões internas de prevenção de acidentes.</p>
+            </div>
+        </div>
+
+        <!-- ===== MODAL NR-6 ===== -->
+        <div id="modal-nr6" class="modal" hidden>
+            <div class="modal-content">
+                <button class="close-btn">&times;</button>
+                <h2>Uso correto de EPI's (NR 6)</h2>
+                <img src="image/download (6).gif" alt="Treinamento NR-6" class="modal-media">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aborda a importância e correta utilização de
+                    Equipamentos de Proteção Individual.</p>
+            </div>
+        </div>
+
+        <!-- ===== MODAL NR-10 ===== -->
+        <div id="modal-nr10" class="modal" hidden>
+            <div class="modal-content">
+                <button class="close-btn">&times;</button>
+                <h2>Segurança em Instalações Elétricas (NR 10)</h2>
+                <img src="image/download (6).gif" alt="Treinamento NR-10" class="modal-media">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Focado na segurança em instalações elétricas
+                    e prevenção de acidentes com eletricidade.</p>
+            </div>
+        </div>
+
+        <!-- ===== MODAL NR-12 ===== -->
+        <div id="modal-nr12" class="modal" hidden>
+            <div class="modal-content">
+                <button class="close-btn">&times;</button>
+                <h2>Segurança em Máquinas e Equipamentos (NR 12)</h2>
+                <img src="image/download (6).gif" alt="Treinamento NR-12" class="modal-media">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Voltado à prevenção de acidentes com
+                    máquinas e equipamentos industriais.</p>
+            </div>
+        </div>
+
+        <!-- ===== MODAL NR-35 ===== -->
+        <div id="modal-nr35" class="modal" hidden>
+            <div class="modal-content">
+                <button class="close-btn">&times;</button>
+                <h2>Trabalho em Altura (NR 35)</h2>
+                <img src="image/download (6).gif" alt="Treinamento NR-35" class="modal-media">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Treinamento essencial para segurança em
+                    atividades realizadas acima do solo.</p>
+            </div>
+        </div>
+
+        <!-- ===== MODAL NR-23 ===== -->
+        <div id="modal-nr23" class="modal" hidden>
+            <div class="modal-content">
+                <button class="close-btn">&times;</button>
+                <h2>Proteção Contra Incêndios e Emergências (NR 23)</h2>
+                <img src="image/download (6).gif" alt="Treinamento NR-23" class="modal-media">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Foca em prevenção, combate e evacuação
+                    segura em casos de incêndios.</p>
+            </div>
+        </div>
+
+        <!-- ===== MODAL NR-18 ===== -->
+        <div id="modal-nr18" class="modal" hidden>
+            <div class="modal-content">
+                <button class="close-btn">&times;</button>
+                <h2>Condições e Meio Ambiente na Construção Civil (NR 18)</h2>
+                <img src="image/download (6).gif" alt="Treinamento NR-18" class="modal-media">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Direcionado a profissionais da construção
+                    civil, enfatizando segurança no ambiente de trabalho.</p>
+            </div>
+        </div>
+
+        <!-- ===== MODAL NR-17 ===== -->
+        <div id="modal-nr17" class="modal" hidden>
+            <div class="modal-content">
+                <button class="close-btn">&times;</button>
+                <h2>ErgoPrev (NR 17)</h2>
+                <img src="image/download (6).gif" alt="Treinamento NR-17" class="modal-media">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Envolve práticas ergonômicas para reduzir
+                    riscos e aumentar o conforto no trabalho.</p>
+            </div>
+        </div>
+
+        <!-- ===== MODAL NR-33 ===== -->
+        <div id="modal-nr33" class="modal" hidden>
+            <div class="modal-content">
+                <button class="close-btn">&times;</button>
+                <h2>Espaço Confinado (NR 33)</h2>
+                <img src="image/download (6).gif" alt="Treinamento NR-33" class="modal-media">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ensina técnicas seguras para trabalho em
+                    locais de difícil acesso e ventilação limitada.</p>
+            </div>
+        </div>
+
+        <!-- ===== MODAL PRIMEIROS SOCORROS ===== -->
+        <div id="modal-socorros" class="modal" hidden>
+            <div class="modal-content">
+                <button class="close-btn">&times;</button>
+                <h2>Primeiros Socorros</h2>
+                <img src="image/download (6).gif" alt="Treinamento Primeiros Socorros" class="modal-media">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Treinamento sobre procedimentos imediatos em
+                    emergências médicas.</p>
+            </div>
+        </div>
+
+        <!-- ===== MODAL NR-20 ===== -->
+        <div id="modal-nr20" class="modal" hidden>
+            <div class="modal-content">
+                <button class="close-btn">&times;</button>
+                <h2>Armazenar, Transportar e Manusear Líquidos Inflamáveis (NR 20)</h2>
+                <img src="image/download (6).gif" alt="Treinamento NR-20" class="modal-media">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Capacita profissionais a lidar com
+                    substâncias inflamáveis com segurança.</p>
+            </div>
+        </div>
+
+        <!-- ===== MODAL NR-13 ===== -->
+        <div id="modal-nr13" class="modal" hidden>
+            <div class="modal-content">
+                <button class="close-btn">&times;</button>
+                <h2>Operador de Caldeira (NR 13)</h2>
+                <img src="image/download (6).gif" alt="Treinamento NR-13" class="modal-media">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aborda normas e práticas seguras no manuseio
+                    e operação de caldeiras.</p>
+            </div>
+        </div>
+
+
+
+
+
+
+
+        <!-- ========================================================= -->
+        <!-- ==================== SEÇÃO DE SERVIÇOS ================== -->
+        <!-- ========================================================= -->
+
+        <section id="servicos" class="container section">
+            <h2>Nossos Serviços</h2>
+            <p class="lead">Soluções personalizadas para empresas de qualquer porte</p>
+
+            <div class="cards">
+
+                <!-- ===== SERVIÇO 1 ===== -->
+                <article class="card">
+                    <img src="image/download (6).gif" alt="Treinamento NR-35" class="card-img">
+                    <h3>Consultoria de Segurança</h3>
+                    <p>Diagnóstico, plano de ação e acompanhamento — 8 horas de consultoria presencial ou remota.</p>
+                    <p class="price">R$600 • 8h</p>
+                    <button class="btn agendar" data-servico="Consultoria em segurança">Agendar</button>
+                </article>
+
+                <!-- ===== SERVIÇO 2 ===== -->
+                <article class="card">
+                    <img src="image/download (6).gif" alt="Treinamento NR-35" class="card-img">
+                    <h3>Treinamento NR-10</h3>
+                    <p>Capacitação para trabalho seguro em instalações elétricas - turma ou in company.</p>
+                    <p class="price">R$450 / turma</p>
+                    <button class="btn agendar" data-servico="treinamento NR-10">Agendar</button>
+                </article>
+
+                <!-- ===== SERVIÇO 3 ===== -->
+                <article class="card">
+                    <img src="image/download (6).gif" alt="Treinamento NR-35" class="card-img">
+                    <h3>Laudos Técnicos</h3>
+                    <p>PPRA, LTCAT, e outros laudos para atender à legislação e fiscalizações.</p>
+                    <p class="price">R$300 / unidade</p>
+                    <button class="btn agendar" data-servico="Laudos Técnicos">Agendar</button>
+                </article>
+
+                <!-- ===== SERVIÇO 4 ===== -->
+                <article class="card">
+                    <img src="image/download (6).gif" alt="Treinamento NR-35" class="card-img">
+                    <h3>Análise Preliminar de Riscos - APR</h3>
+                    <p>Identificação e avaliação de potenciais riscos antes da execução de atividades.</p>
+                    <p class="price">Sob consulta</p>
+                    <button class="btn agendar" data-servico="Análise Preliminar de Riscos - APR">Agendar</button>
+                </article>
+
+                <!-- ===== SERVIÇO 5 ===== -->
+                <article class="card">
+                    <img src="image/download (6).gif" alt="Treinamento NR-35" class="card-img">
+                    <h3>Laudo Técnico das Condições Ambientais de Trabalho - LTCAT</h3>
+                    <p>Documento essencial para comprovação da exposição a agentes nocivos e aposentadoria especial.</p>
+                    <p class="price">Sob consulta</p>
+                    <button class="btn agendar"
+                        data-servico="Laudo Técnico das Condições Ambientais de Trabalho - LTCAT">Agendar</button>
+                </article>
+
+                <!-- ===== SERVIÇO 6 ===== -->
+                <article class="card">
+                    <img src="image/download (6).gif" alt="Treinamento NR-35" class="card-img">
+                    <h3>Perfil Profissiográfico Previdenciário - PPP</h3>
+                    <p>Relatório individual que consolida informações ambientais e de atividades do trabalhador.</p>
+                    <p class="price">Sob consulta</p>
+                    <button class="btn agendar"
+                        data-servico="Perfil Profissiográfico Previdenciário - PPP">Agendar</button>
+                </article>
+
+                <!-- ===== SERVIÇO 7 ===== -->
+                <article class="card">
+                    <img src="image/download (6).gif" alt="Treinamento NR-35" class="card-img">
+                    <h3>Relatório das Instalações Elétricas (NR-10)</h3>
+                    <p>Inspeção técnica e documentação das condições elétricas conforme a norma NR-10.</p>
+                    <p class="price">Sob consulta</p>
+                    <button class="btn agendar"
+                        data-servico="Relatório das Instalações Elétricas NR-10">Agendar</button>
+                </article>
+
+                <!-- ===== SERVIÇO 8 ===== -->
+                <article class="card">
+                    <img src="image/download (6).gif" alt="Treinamento NR-35" class="card-img">
+                    <h3>Relatório de Inspeção - Norma Regulamentadora NR-18</h3>
+                    <p>Verificação das condições de segurança e organização em canteiros de obras conforme NR-18.</p>
+                    <p class="price">Sob consulta</p>
+                    <button class="btn agendar" data-servico="Relatório de Inspeção NR-18">Agendar</button>
+                </article>
+
+                <!-- ===== SERVIÇO 9 ===== -->
+                <article class="card">
+                    <img src="image/download (6).gif" alt="Treinamento NR-35" class="card-img">
+                    <h3>Relatório de Máquinas, Equipamentos e Ferramentas</h3>
+                    <p>Inspeção e avaliação de conformidade das máquinas e equipamentos utilizados na empresa.</p>
+                    <p class="price">Sob consulta</p>
+                    <button class="btn agendar"
+                        data-servico="Relatório de Máquinas, Equipamentos e Ferramentas">Agendar</button>
+                </article>
+
+                <!-- ===== SERVIÇO 10 ===== -->
+                <article class="card">
+                    <img src="image/download (6).gif" alt="Treinamento NR-35" class="card-img">
+                    <h3>Relatório de Visita ou Relatório de Inspeção</h3>
+                    <p>Registro técnico detalhado das inspeções realizadas in loco, com recomendações e plano de ação.
+                    </p>
+                    <p class="price">Sob consulta</p>
+                    <button class="btn agendar"
+                        data-servico="Relatório de Visita ou Relatório de Inspeção">Agendar</button>
+                </article>
+
+            </div>
+        </section>
+
+
+        <!-- ========================================================= -->
+        <!-- ==================== SEÇÃO SOBRE NÓS ==================== -->
+        <!-- ========================================================= -->
+
+        <section id="sobre" class="container section sobre">
+            <h2>Sobre a Vital Serviços</h2>
+
+            <p>
+                A <strong>Vital Serviços</strong> é especializada em <strong>Segurança do Trabalho</strong>,
+                dedicada à <strong>prevenção de acidentes e doenças ocupacionais</strong>. Nosso compromisso é criar
+                ambientes laborais <strong>seguros, saudáveis e produtivos</strong>, protegendo a integridade física e
+                mental
+                de cada colaborador.
+            </p>
+
+            <h3>Missão</h3>
+            <p>
+                Promover <strong>segurança, saúde e bem-estar</strong> no trabalho por meio de
+                <strong>soluções inovadoras e personalizadas</strong>, contribuindo para a
+                <strong>produtividade</strong> e <strong>qualidade de vida</strong> dos profissionais.
+            </p>
+
+            <h3>Visão</h3>
+            <p>
+                Ser <strong>referência em Segurança do Trabalho e ergonomia</strong> em todo o estado,
+                reconhecida pela <strong>excelência técnica</strong>, <strong>inovação</strong> e
+                <strong>compromisso com a integridade</strong> dos trabalhadores.
+            </p>
+
+            <h3>Valores</h3>
+            <ul class="valores-lista">
+                <li><strong>Segurança em primeiro lugar:</strong> prevenir acidentes e proteger vidas.</li>
+                <li><strong>Ética e transparência:</strong> agir com honestidade e respeito.</li>
+                <li><strong>Inovação contínua:</strong> evoluir para oferecer sempre o melhor.</li>
+                <li><strong>Compromisso com o cliente:</strong> soluções eficazes e personalizadas.</li>
+                <li><strong>Valorização humana:</strong> bem-estar e respeito aos colaboradores.</li>
+                <li><strong>Responsabilidade social:</strong> promover uma sociedade mais segura e justa.</li>
+            </ul>
+
+            <h3>Nosso Objetivo</h3>
+            <p>
+                Ajudar empresas de todos os portes a <strong>consolidar uma cultura de segurança</strong>,
+                reduzindo riscos e garantindo conformidade com as <strong>normas regulamentadoras</strong>.
+            </p>
+
+            <h3>Por que escolher a Vital Serviços?</h3>
+            <p>
+                Investir em segurança é investir em pessoas. Somos especialistas em <strong>ergonomia e segurança
+                    ocupacional</strong>,
+                oferecendo <strong>soluções sob medida</strong> que unem <strong>excelência, inovação e
+                    bem-estar</strong>.
+            </p>
+        </section>
+
+
+        <!-- ========================================================= -->
+        <!-- ==================== SEÇÃO CONTATO ====================== -->
+        <!-- ========================================================= -->
+
+        <section id="contato" class="container section">
+            <h2>Contato</h2>
+
+            <!-- ===== FORMULÁRIO DE CONTATO ===== -->
+            <form id="formContato" class="form">
+                <label>Nome <input type="text" name="nome" required></label>
+                <label>Email <input type="email" name="email" required></label>
+                <label>Telefone <input type="tel" name="telefone" placeholder="(71) 9xxxx-xxxx"></label>
+
+                <label>Serviço de interesse
+                    <select name="servico" required>
+                        <option value="">Selecione um serviço</option>
+                        <option>Consultoria em Segurança</option>
+                        <option>Treinamento NR-10</option>
+                        <option>Laudos Técnicos</option>
+                        <option>Análise Preliminar de Riscos - APR</option>
+                        <option>Laudo Técnico das Condições Ambientais de Trabalho - LTCAT</option>
+                        <option>Perfil Profissiográfico Previdenciário - PPP</option>
+                        <option>Relatório das Instalações Elétricas (NR-10)</option>
+                        <option>Relatório de Inspeção - Norma Regulamentadora NR-18</option>
+                        <option>Relatório de Máquinas, Equipamentos e Ferramentas</option>
+                        <option>Relatório de Visita ou Relatório de Inspeção</option>
+                    </select>
+                </label>
+
+
+                <label>Mensagem
+                    <textarea name="mensagem" rows="4"></textarea>
+                </label>
+
+                <button type="submit" class="btn primary">Enviar mensagem</button>
+            </form>
+
+
+        </section>
+
+    </main>
+
+    <!-- ========================================================= -->
+    <!-- ==================== MODAL LOGIN/CADASTRO ================ -->
+    <!-- ========================================================= -->
+
+    <div id="auth-modal" class="modal" hidden>
+        <div class="modal-content" role="dialog" aria-modal="true" aria-labelledby="auth-title">
+
+            <button class="close-btn" id="close-modal" aria-label="Fechar modal">&times;</button>
+
+            <!-- ===== FORM LOGIN ===== -->
+            <div id="login-form" class="form-box active">
+                <h2 id="auth-title">Entrar</h2>
+                <form>
+                    <label>Email<input type="email" placeholder="seu@email.com" required></label>
+                    <label>Senha<input type="password" placeholder="********" required></label>
+                    <button type="submit" class="btn primary">Entrar</button>
+                </form>
+                <p>Não tem conta? <a href="#" id="show-register">Cadastre-se</a></p>
+            </div>
+
+            <!-- ===== FORM CADASTRO ===== -->
+            <div id="register-form" class="form-box">
+                <h2>Criar conta</h2>
+                <form>
+                    <label>Nome<input type="text" placeholder="Seu nome" required></label>
+                    <label>Email<input type="email" placeholder="seu@email.com" required></label>
+                    <label>Senha<input type="password" placeholder="********" required></label>
+                    <button type="submit" class="btn primary">Cadastrar</button>
+                </form>
+                <p>Já tem conta? <a href="#" id="show-login">Entrar</a></p>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Notificação de agendamento -->
+    <div id="toast" class="toast" hidden>
+        <p>✅ Serviço agendado com sucesso!</p>
+    </div>
+
+
+    <!-- ========================================================= -->
+    <!-- ======================== RODAPÉ ========================== -->
+    <!-- ========================================================= -->
+
+    <footer class="site-footer">
+        <div class="container">
+            <!-- ===== CONTATOS RÁPIDOS ===== -->
+            <p>Email: <a href="mailto:contato.vitalservicos@gmail.com">contato.vitalservicos@gmail.com</a></p>
+            <p>Telefone: <a href="tel:+5571992413117">(71) 99241-3117</a></p>
+            <p>© <span id="ano"></span> Vital Serviços — Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+
+    <!-- ===== JAVASCRIPT PRINCIPAL ===== -->
+    <script src="script.js" defer></script>
+
+</body>
+
+</html>
